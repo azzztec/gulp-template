@@ -1,0 +1,35 @@
+{
+  "env": {
+    "jquery": true
+  },
+  "overrides": [
+    {
+      "files": [ "src/assets/**/*.js" ],
+      "extends": [
+        "standard",
+        "airbnb-base"
+      ],
+      "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+      },
+      "rules": {
+        "indent": [
+          "error",
+          4
+        ],
+        "semi": [
+          "error",
+          "never"
+        ],
+        "quotes": [
+          "error",
+          "backtick"
+        ]
+      }
+    }
+  ]
+}
